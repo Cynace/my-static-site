@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next export",
+    "postbuild": "npm run export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preexport": "next-sitemap",
+    "export": "next export"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -26,6 +28,7 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "eslint-config-prettier": "^8.7.0",
+    "next-sitemap": "^4.0.5",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "prettier-plugin-organize-imports": "^3.2.2",

@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   basePath: '/my-static-site',
   assetPrefix: '/my-static-site/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
