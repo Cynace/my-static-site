@@ -28,6 +28,7 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "eslint-config-prettier": "^8.7.0",
+    "next-seo": "^5.15.0",
     "next-sitemap": "^4.0.5",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",

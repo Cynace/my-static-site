@@ -10,6 +10,7 @@ specifiers:
   eslint-config-prettier: ^8.7.0
   gray-matter: ^4.0.3
   next: 13.2.3
+  next-seo: ^5.15.0
   next-sitemap: ^4.0.5
   postcss: ^8.4.21
   prettier: ^2.8.4
@@ -40,6 +41,7 @@ devDependencies:
   eslint: 8.35.0
   eslint-config-next: 13.2.3_ycpbpc6yetojsgtrx3mwntkhsu
   eslint-config-prettier: 8.7.0_eslint@8.35.0
+  next-seo: 5.15.0_nvzgbose6yf6w7ijjprgspqefi
   next-sitemap: 4.0.5_next@13.2.3
   postcss: 8.4.21
   prettier: 2.8.4
@@ -2337,6 +2339,18 @@ packages:
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+    dev: true
+
+  /next-seo/5.15.0_nvzgbose6yf6w7ijjprgspqefi:
+    resolution: {integrity: sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      next: 13.2.3_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: true
 
   /next-sitemap/4.0.5_next@13.2.3:
