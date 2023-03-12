@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import Layout from '../../components/layout'
-import { getSortedPostsData, Post } from '../../libs/posts'
+import { getSortedPostsData, Post } from '../../utils/posts'
 
 type Props = {
   posts: Post[]

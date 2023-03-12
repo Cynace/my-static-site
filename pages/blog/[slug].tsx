@@ -1,8 +1,8 @@
 import { NextSeo } from 'next-seo'
 import Head from 'next/head'
 import Layout from '../../components/layout'
-import { markdownToHtml } from '../../libs/markdown-to-html'
-import { getSortedPostsData, Post } from '../../libs/posts'
+import { markdownToHtml } from '../../utils/markdown-to-html'
+import { getSortedPostsData, Post } from '../../utils/posts'
 
 type Props = {
   post: Post
