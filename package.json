@@ -12,6 +12,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@cloudinary/url-gen": "^1.9.2",
     "gray-matter": "^4.0.3",
     "next": "13.2.3",
     "react": "18.2.0",

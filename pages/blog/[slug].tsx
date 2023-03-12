@@ -3,12 +3,15 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import { markdownToHtml } from '../../utils/markdown-to-html'
 import { getSortedPostsData, Post } from '../../utils/posts'
+import {createOgImageUrl} from "../../utils/og-image";
 
 type Props = {
   post: Post
 }
 
 export default function BlogPost({ post }: Props) {
+  const ogImageUrl = createOgImageUrl(post)
+
   return (
     <>
       <NextSeo
@@ -20,7 +23,7 @@ export default function BlogPost({ post }: Props) {
           description: `${post.content.substring(0, 100)}...`,
           images: [
             {
-              url: 'https://myblog.com/og-home.jpg',
+              url: ogImageUrl,
               width: 1200,
               height: 630,
               alt: post.title,
